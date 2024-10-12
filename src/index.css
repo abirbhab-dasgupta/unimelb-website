@@ -1,0 +1,25 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --color-primary: #1e40af;  /* Dark Blue */
+  --color-secondary: #15803d;  /* Dark Green */
+  --color-primary-light: #3b82f6;  /* Light Blue */
+  --color-secondary-light: #22c55e;  /* Light Green */
+  --color-background: #f0f9ff;  /* Very Light Blue */
+  --color-text: #1e293b;  /* Slate 800 */
+  --color-text-light: #f8fafc;  /* Slate 50 */
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.text-shadow-lg {
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
